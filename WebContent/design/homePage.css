@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.logo img{
+	width:150px;
+	height:150px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.university-name{
+	color:#FF5733;
+}
+
+   a {
+    margin-left: auto;
+    padding: 10px 15px;
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius:5px;
+    text-decoration: none;
+     
+}
+
+.hero-image {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+#hero-button {
+	padding: 10px 15px;
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius:5px;
+}
+
+.body-content {
+    padding: 20px;
+}
+
+
+/* ... (previous code) */
+
+h2{
+	text-align:center;
+	margin-top:50px;
+	
+}
+
+.intro{
+	text-align:center;
+}
+
+.faculties {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.faculty-card {
+    margin: 20px;
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.faculty-card:hover {
+    transform: scale(1.05);
+}
+
+.faculty-card h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.faculty-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* ... (previous code) */
+
+
+/* About Us Card Styles */
+.about-us-card {
+    background-color: #ffffff; /* Card background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Inner padding */
+    margin: 20px auto; /* Center the card */
+   width: 80%; /* Maximum width of the card */
+    text-align: left; /* Align text to the left */
+}
+
+.about-us-card h2 {
+    margin-bottom: 15px; /* Space between heading and text */
+    color: #007BFF; /* Heading color */
+}
+
+.about-us-card p {
+    line-height: 1.6; /* Line height for readability */
+    color: #333; /* Text color */
+    margin-left:50px;
+    margin-right:50px;
+}
+
+
+/* ... (previous code) */
+
+.student-life-carousel {
+    position: relative;
+    height: 300px; /* You can adjust this height as needed */
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.carousel-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.carousel-item.active {
+    opacity: 1;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carousel-title {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* ... (previous code) */
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}

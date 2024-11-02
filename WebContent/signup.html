@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sign Up</title>
+ <link rel="stylesheet" href="design/signup.css">
+</head>
+<body>
+
+
+
+ <div class="container">
+        <div class="login-cover">
+            <img src="image-log/university.jpg" alt="Cover Image">
+        </div>
+        <div class="login-form">
+            <div class="logo-container">
+                <img src="image-home/logo1.jpg" alt="University Logo" class="logo">
+                <h2>Legacy University</h2>
+            </div>
+            <h3> Create an Account</h3>
+            
+            <form action="signup" method="POST">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                
+                 <div class="form-group">
+                    <label for="confpassword">Confirm Password</label>
+                    <input type="password" id="confpassword" name="confpassword" required>
+                </div>
+                
+                <div class="form-group">
+            <label for="role">Role</label>
+            <select id="role" name="role" required>
+                <option value="">Choose an option</option>
+                <option value="student">STUDENT</option>
+                <option value="lecturer">LECTURER</option>
+                <option value="registrar">REGISTRAR</option>
+                <option value="hod">HOD</option>
+            </select>
+        </div>
+                
+                <button type="submit">Sign Up</button>
+                <div class="links">
+                  
+                    <p>Already have an account? <a href="index.html">Log In</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
